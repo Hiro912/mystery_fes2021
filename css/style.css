@@ -1,3 +1,7 @@
+html {
+    min-width :350px;
+}
+
 body {
     margin: 0%;
 }
@@ -80,22 +84,22 @@ img {
 
 .abox {
     outline: 0;
-    height: 36px;
-    width: 246px;
+    height: 28px;
+    width: 50%;
     border-radius: 2px 0 0 2px;
     background: #eee;
 }
 
 .abtn {
     cursor: pointer;
-    width: 60px;
-    height: 42px;
+    width: 20%;
+    height: 34px;
     border-radius: 0 2px 2px 0;
     background: orange;
     border: none;
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .abtn:hover {
@@ -139,6 +143,16 @@ img {
     .mystery {
         width: 70%;
     }
+    .abox {
+        height: 36px;
+        width: 220px;
+    }
+    
+    .abtn {
+        width: 60px;
+        height: 42px;
+        font-size: 14px;
+    }
     p {
         font-size: 26px;
     }
@@ -147,6 +161,17 @@ img {
 @media screen and (min-width: 1025px) {
     .mystery {
         width: 50%;
+    }
+
+    .abox {
+        height: 36px;
+        width: 246px;
+    }
+    
+    .abtn {
+        width: 60px;
+        height: 42px;
+        font-size: 16px;
     }
     p {
         font-size: 30px;
