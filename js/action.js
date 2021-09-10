@@ -2,7 +2,7 @@
 $(function(){
     $('#button1').click(function(){
         var answer1 = $('#answer1').val();
-        if (answer1 == "PARALLEL" || answer1 == "パラレル") {
+        if (answer1 == "PARALLEL" || answer1 == "パラレル" || answer1 == "parallel") {
             $('#mystery1_answer').fadeIn();
             $('#mistake1').hide();
             $("#answer1").prop('disabled', true);
